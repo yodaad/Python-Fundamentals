@@ -20,6 +20,7 @@ age = int(age)
 age += 10
 print(f"Your age in 10 years will be: {age}")
 
+# Alternative solution   
 age = int(input("Enter your age: "))
 print(f"Your current age is {age}" )
 age += 10
