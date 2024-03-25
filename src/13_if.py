@@ -1,3 +1,5 @@
+# IF statement in Python, it is used to execute a block of code only when the condition is true.
+
 if True:
     print("It must execute since the condition is true")
 
