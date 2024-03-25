@@ -26,22 +26,41 @@ else:
     
 print("-" * 25)
 
+# len function, it is used to get the length of a text.
 size = len(text)
 print(size)
 
 print(text) 
+# upper method, it is used to convert the text to uppercase.
 print(text.upper())
+
+# lower method, it is used to convert the text to lowercase.
 print(text.lower())
+
+# count method, it is used to count the number of times a string appears in a text.
 print(text.count("y"))
 print(text.lower().count("p"))
+# swapcase method, it is used to swap the case of the text.
 print(text.swapcase())
+
+# starts with method, it is used to check if a text starts with a specific word.
 print(text.startswith("She"))
+
+# endswith method, it is used to check if a text ends with a specific word.
 print(text.endswith("Rust"))
+
+# replace method, it is used to replace a word in a text.
 print(text.replace("Python", "Java"))
 
 text_2 = "this is just a title."
 print(text_2)
+
+# capitalize method, it is used to capitalize the first letter of the text.
 print(text_2.capitalize())
+
+# title method, it is used to capitalize the first letter of each word in the text.
 print(text_2.title())
+
+# isdigit method, it is used to check if the text is a number.
 print(text_2.isdigit())
 print("512".isdigit())
