@@ -14,10 +14,14 @@ my_dictionary = {
 print(my_dictionary)
 print(len(my_dictionary))
 
+# Accessing values in a dictionary using the key name.
 print(my_dictionary["age"])
 print(my_dictionary["last_name"])
+
+# Accessing values in a dictionary using the get() method.
 print(my_dictionary.get("age"))
 print(my_dictionary.get("height"))
 
+# In returns a boolean value if the key exists in the dictionary.
 print("age" in my_dictionary)
 print("height" in my_dictionary)
