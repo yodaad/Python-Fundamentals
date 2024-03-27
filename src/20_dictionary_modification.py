@@ -39,3 +39,9 @@ print("Values")
 print(person.values())
 
 # Copy returns a copy of the dictionary
+new_person = person.copy()
+print("Copied dictionary: ", new_person)
+
+# Clear removes all key-value pairs from the dictionary
+new_person.clear()
+print("Cleared dictionary: ", new_person)
