@@ -15,14 +15,14 @@ my_tuple = ("Diego", "Dann", "Mike")
 
 for names in my_tuple:
     print(names)
-    
+
+# The for loop can be used to iterate over the keys of a dictionary
 product = {
     "name": "shirt",
     "price": 100,
     "stock": 89
 }
 
-# The for loop can be used to iterate over the keys of a dictionary
 for key in product:
     print(key, "=>", product[key])
     
