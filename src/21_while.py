@@ -19,6 +19,6 @@ counter2 = 0
 
 while counter2 < 20:
     counter2 += 1
-    if counter2 < 15:
+    if counter2 < 10:
         continue
     print("Counter2:",counter2)
