@@ -1,9 +1,9 @@
 # Loop for in Python 
 
-"""
-for element in range(1, 21):
+# Range function in Python is used to generate a sequence of numbers. The first parameter is the starting point, the second parameter is the ending point, and the third parameter is the step.
+for element in range(1, 21, 2):
     print(element)
-"""
+
 
 # The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. 
 my_list = [23, 45, 67,89, 43]
