@@ -1,8 +1,11 @@
+# Loop for in Python 
+
 """
 for element in range(1, 21):
     print(element)
 """
 
+# The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. 
 my_list = [23, 45, 67,89, 43]
 
 for number in my_list:
@@ -19,6 +22,7 @@ product = {
     "stock": 89
 }
 
+# The for loop can be used to iterate over the keys of a dictionary
 for key in product:
     print(key, "=>", product[key])
     
@@ -41,5 +45,6 @@ people = [
     }
 ]
 
+# The for loop can be used to iterate over a list of dictionaries
 for person in people:
     print("name =>", person["name"])
